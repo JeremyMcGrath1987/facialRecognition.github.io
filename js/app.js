@@ -43,7 +43,6 @@ video.addEventListener("play", () => {
 
         try {
             glasses.style.display = "block";
-            console.log(detections[0].detection.box);
             const { x, y, width, height } = detections[0].detection.box;
             facex = x+50;
             facey = y;
