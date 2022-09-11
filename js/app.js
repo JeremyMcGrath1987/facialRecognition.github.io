@@ -34,7 +34,7 @@ video.addEventListener("play", () => {
         let facewidth = 100;
         let faceheight = 100;
         let glassesProportion = 1;
-        glasses.src = "../img/glasses.png";
+        glasses.src = "./img/glasses.png";
         glasses.addEventListener("load", () => {
             glassesProportion = glasses.width / glasses.height;
         });
